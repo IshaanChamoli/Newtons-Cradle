@@ -18,11 +18,11 @@ function setup() {
 	//Create the Bodies Here.
 	roof = new Roof(400,50,800,10);
 
-	bobObject1 = new Bob(50,200,30,0);
-	bobObject2 = new Bob(100,200,30,0);
-	bobObject3 = new Bob(150,200,30,0);
-	bobObject4 = new Bob(200,200,30,0);
-	bobObject5 = new Bob(250,200,30,0);
+	bobObject1 = new Bob(50,200,25,0);
+	bobObject2 = new Bob(100,200,25,0);
+	bobObject3 = new Bob(150,200,25,0);
+	bobObject4 = new Bob(200,200,25,0);
+	bobObject5 = new Bob(250,200,25,0);
 
 	rope1 = new Rope(bobObject1.body,roof.body,-bobDiameter*2,0);
 	rope2 = new Rope(bobObject2.body,roof.body,-bobDiameter,0);
